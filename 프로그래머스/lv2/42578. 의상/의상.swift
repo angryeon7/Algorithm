@@ -9,7 +9,7 @@ func solution(_ clothes:[[String]]) -> Int {
          category.insert(clothes[i][1])
     }
   
-    clothes
+    
     for j in category{
         result *= (clothes.filter { $0[1] == j }.count+1)
     }  
